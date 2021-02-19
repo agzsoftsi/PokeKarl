@@ -2,7 +2,7 @@
 
 ## Description
 
-PokeKarl is simple web App that use the PokeAPI and Javascript like a core language than can show the basic information for all pokemons with a easy and cool UI(User interface).
+PokeKarl is a simple web App that use the PokeAPI and JavaScript like a core language that can show the basic information for all Pokémon with an easy and cool UI(User interface).
 
 **IMPORTANT** This project has no commercial purpose and I do not intend to take away the legal right to the content or image of the Pokémon brand, it is only a project made with love and with the purpose of improving my JavaScript programming skills.
 
