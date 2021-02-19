@@ -8,11 +8,26 @@ PokeKarl is a simple web App that use the PokeAPI and JavaScript like a core lan
 
 ## Features: 
 
-- All Pokemons (8 Generations)
-- Information:
+- Information for All Pokemons (8 Generations - 898):
 > - Id
 > - Name
+> - Description
 > - Picture Animated for normal and shiny pokemons
+> - Generation
+> - Types
+> - Abilities
+> - Height
+> - Weight
+> - Region : | of Pokemons
+> - Pokemon Classification
+
+- Backgroud Color for Classification (Normal, Legendary, Mythycal)
+
+- Console Skin Selector:
+> - Light skin (Traditional color red)
+> - Dark skin
+
+- Speech Description for each one Pokemon (English)
 
 ## :books: Content
 
