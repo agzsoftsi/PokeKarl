@@ -2,7 +2,9 @@
 
 ## Description
 
-PokeKarl is simple web App that use the PokeAPI and Javascript like a core language than can show the basic information for all pokemons with a easy and cool UI(User interface)
+PokeKarl is simple web App that use the PokeAPI and Javascript like a core language than can show the basic information for all pokemons with a easy and cool UI(User interface).
+
+**IMPORTANT** This project has no commercial purpose and I do not intend to take away the legal right to the content or image of the Pokémon brand, it is only a project made with love and with the purpose of improving my JavaScript programming skills.
 
 ## Features: 
 
@@ -16,20 +18,17 @@ PokeKarl is simple web App that use the PokeAPI and Javascript like a core langu
 
 ## Version: 1.0
 
-- Working on web and android like an App
-- Generate Panel
-- Preview generated Avatar
-- download function working
-- Restart App function
+- Implemented - Searching function to see Basic information for 898 pokemons (8 GEN)
+- Implemented - Picture Animated for normal and shiny pokemons in regular Forms
+- Implemented - Sking selector to Change of PokeKarl Skin a. light Skin b. Dark skin
+- Implemented - Background for type of pokemon (Normal, Legendary, Mythycal)
+- Implemented - Responsive interface only on Pc browser
+- Implemented - Speech Information on English
 - Support for Google Chrome, Firefox, Android
 
 ## Access Link
 
-[Run App](https://agzsoftsi.github.io/100_JavaScript_projects_Challenge/004_Project5_AvatarCreator/index.html)
-
-## Download APK
-
-[download](https://drive.google.com/file/d/1gPh0EwYxtAK5e6i7-vL9Lb7NEWq6LTK5/view?usp=sharing)
+[Run App]()
 
 ## Technologies:
 
@@ -39,8 +38,8 @@ PokeKarl is simple web App that use the PokeAPI and Javascript like a core langu
 - [Boostrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 - [animate](https://animate.style/)
 - [fontawesome](https://fontawesome.com/)
-- [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
+- [speechsynthesis](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis)
 
 ## Video DEMO
 
-[DEMO](https://youtu.be/Q5rQxzfFVm0)
+[DEMO]()
