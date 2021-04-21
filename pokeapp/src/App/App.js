@@ -20,7 +20,7 @@ function App() {
       </div>
 
       <div className='Search-bar'>
-        <input type='text' id='searchPokemon' className='input-search'/>
+        <input type='text' id='searchPokemon' className='input-search' autocomplete="off"/>
       </div>
 
       <div>
