@@ -20,17 +20,17 @@ function App() {
       </div>
 
       <div className='Search-bar'>
-        <input type='text' id='searchPokemon' className='input-search' autocomplete="off"/>
+        <input type='text' id='searchPokemon' className='input-search' autoComplete="off"/>
       </div>
 
       <div>
-        <button className='ButtonSpeech' onClick = ''>
+        <button className='ButtonSpeech'>
           <span className='icon-speech' title='Speech PokeInfo'> </span>
         </button>
       </div>
 
       <div>
-        <button className='ButtonSearch' onClick = ''>
+        <button className='ButtonSearch'>
           <span className='icon-search' title='Search Pokemon'> </span>
         </button>
       </div>
