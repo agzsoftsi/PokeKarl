@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
+#app-size{
+  width: 761px;
+  height: 572px;
+}
+.App-skin-0{
+  background-image: url('https://i.imgur.com/NOiEJO1.gif');
+
+  
+}
+.App-skin-1{
+  background-image: url('https://i.imgur.com/rB54Kxq.gif');
+ 
+}
+
+.App-ButtonChange{
+  position: absolute;
+  margin-left: -665px;
+  margin-top: 300px;
+}
+
+/* Button Change skin styles */
+.ButtonChange{
+  border-radius: 25px !important;
+  padding: 5px !important;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -738px;
+  margin-top: 310px;
+}
+
+.ButtonChange:hover{
+  transform: scale(1.05);
+  background-color: rgb(230, 230, 231);
+}
+.ButtonChange:active{
+ 
+  background-color: rgb(194, 194, 194);
+}
+
+#icon-b1{
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+.icon-button-0{
+  background: url('https://i.imgur.com/2a97jrY.png');
+}
+
+.icon-button-1{
+  background: url('https://i.imgur.com/oOJbIzi.png');
+}
+
+@media screen and (max-width:768px) {
+  #app-size{
+    width: 682px;
+    height: 513px;
+  }
+  .App-skin-0{
+    background-image: url('https://i.imgur.com/wGIP409.gif'); 
+  }
+  .App-skin-1{
+    background-image: url('https://i.imgur.com/BHawrzV.gif');
+  }
+  .ButtonChange{
+    width: 45px;
+    height: 45px;
+    margin-left: -661px;
+    margin-top: 280px;
+  }
+  #icon-b1{
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width:692px) {
+  #app-size{
+    width: 562px;
+    height: 423px;
+  }
+
+  .App-skin-0{
+    background-image: url('https://i.imgur.com/yMh7h4m.gif');   
+  }
+  .App-skin-1{
+    background-image: url('https://i.imgur.com/4qpJgjM.gif');
+  }
+
+  .ButtonChange{
+    width: 40px;
+    height: 40px;
+    margin-left: -546px;
+    margin-top: 230px;
+  }
+  #icon-b1{
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width:560px) {
+  #app-size{
+    width: 482px;
+    height: 363px;
+  }
+
+  .App-skin-0{
+    background-image: url('https://i.imgur.com/lwrVNQX.gif');   
+  }
+  .App-skin-1{
+    background-image: url('https://i.imgur.com/VnHuRTo.gif');
+  }
+  .ButtonChange{
+    width: 35px;
+    height: 35px;
+    margin-left: -469px;
+    margin-top: 200px;
+  }
+  #icon-b1{
+    width: 15px;
+    height: 15px;
+  }
+}
