@@ -66,6 +66,96 @@
   background: url('https://i.imgur.com/oOJbIzi.png');
 }
 
+/* Search bar styles */
+.Search-bar{
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 0px;
+  margin-top: 465px;
+}
+
+.input-search{
+  border: none;
+  outline: none;
+  text-align: center;
+  font-weight: 700;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+/* Button Speech styles */
+.ButtonSpeech{
+  border-radius: 35px !important;
+  padding: 5px !important;
+  width: 80px;
+  height: 60px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -560px;
+  margin-top: 465px;
+  background-color: rgb(0, 212, 166);
+}
+
+.ButtonSpeech:hover{
+  transform: scale(1.05);
+  background-color: rgb(0, 167, 130);
+}
+.ButtonSpeech:active{
+ 
+  background-color: rgb(46, 204, 170);
+}
+
+.icon-speech{
+  background: url('https://i.imgur.com/zY1i3Tw.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+
+/* Button Search styles */
+.ButtonSearch{
+  border-radius: 35px !important;
+  padding: 5px !important;
+  width: 80px;
+  height: 60px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -280px;
+  margin-top: 465px;
+  background-color: rgb(0, 117, 212);
+}
+
+.ButtonSearch:hover{
+  transform: scale(1.05);
+  background-color: rgb(4, 108, 192);
+}
+.ButtonSearch:active{
+ 
+  background-color: rgb(21, 117, 195);
+}
+
+.icon-search{
+  background: url('https://i.imgur.com/ZxRCv5G.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
+
+
+/* responsive */
 @media screen and (max-width:768px) {
   #app-size{
     width: 682px;
@@ -87,6 +177,33 @@
     width: 25px;
     height: 25px;
   }
+
+  .Search-bar{
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 420px;
+  }
+  .ButtonSpeech{
+    width: 75px;
+    height: 55px;
+    margin-left: -515px;
+    margin-top: 420px;
+  }
+  .icon-speech{
+    width: 25px;
+    height: 25px;
+  }
+
+  .ButtonSearch{
+    width: 75px;
+    height: 55px;
+    margin-left: -240px;
+    margin-top: 420px;
+  }
+  .icon-search{
+    width: 25px;
+    height: 25px;
+  }
 }
 
 @media screen and (max-width:692px) {
@@ -95,7 +212,7 @@
     height: 423px;
   }
 
-  .App-skin-0{
+   .App-skin-0{
     background-image: url('https://i.imgur.com/yMh7h4m.gif');   
   }
   .App-skin-1{
@@ -112,7 +229,35 @@
     width: 20px;
     height: 20px;
   }
+  .Search-bar{
+    padding: 8px;
+    border-radius: 20px;
+    margin-top: 345px;
+  }
+
+  .ButtonSpeech{
+    width: 70px;
+    height: 50px;
+    margin-left: -450px;
+    margin-top: 345px;
+  }
+  .icon-speech{
+    width: 20px;
+    height: 20px;
+  }
+
+  .ButtonSearch{
+    width: 70px;
+    height: 50px;
+    margin-left: -182px;
+    margin-top: 345px;
+  }
+  .icon-search{
+    width: 25px;
+    height: 25px;
+  }
 }
+
 
 @media screen and (max-width:560px) {
   #app-size{
@@ -133,6 +278,33 @@
     margin-top: 200px;
   }
   #icon-b1{
+    width: 15px;
+    height: 15px;
+  }
+
+  .Search-bar{
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 295px;
+  }
+  .ButtonSpeech{
+    width: 62px;
+    height: 42px;
+    margin-left: -398px;
+    margin-top: 295px;
+  }
+  .icon-speech{
+    width: 15px;
+    height: 15px;
+  }
+
+  .ButtonSearch{
+    width: 62px;
+    height: 42px;
+    margin-left: -147px;
+    margin-top: 295px;
+  }
+  .icon-search{
     width: 15px;
     height: 15px;
   }
